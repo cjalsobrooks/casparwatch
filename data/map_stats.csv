@@ -1,28 +1,28 @@
-map,win_percentage,games_played,games_won,games_lost,games_drawn,best_hero
-Antarctic Peninsula,50,34,17,14,3,Ana
-Blizzard World,47,34,16,17,1,Genji
-Busan,39,31,12,12,7,Baptiste
-Circuit Royal,41,27,11,13,3,Ashe
-Colosseo,48,40,19,18,3,D.Va
-Dorado,51,43,22,19,2,Bastion
-Eichenwalde,32,41,13,21,7,Doomfist
-Esperanca,51,39,20,16,3,Echo
-Havana,41,32,13,16,3,Hanzo
-Hollywood,61,41,25,16,0,Bastion
-Ilios,35,37,13,19,5,Baptiste
-Junkertown,41,39,16,17,6,Ana
-King's Row,46,24,11,11,2,Brigitte
-Lijiang Tower,33,39,13,21,5,Ashe
-Midtown,42,45,19,21,5,D.Va
-Nepal,37,35,13,16,6,Kiriko
-New Junk City,41,37,15,18,4,Echo
-New Queen Street,32,34,11,17,6,Mei
-Numbani,36,39,14,20,5,D.Va
-Oasis,49,35,17,13,5,Hanzo
-Paraiso,31,36,11,20,5,Brigitte
-Rialto,51,35,18,15,2,Kiriko
-Route 66,42,45,19,19,7,Cassidy
-Samoa,55,44,24,13,7,Ana
-Shambali Monastery,52,46,24,20,2,Ashe
-Suravasa,39,33,13,19,1,Ana
-Watchpoint: Gibraltar,51,37,19,17,1,Echo
+map,win_percentage,games_played,games_won,games_lost,games_drawn,best_hero,map_objective
+Antarctic Peninsula,50,34,17,14,3,Ana,Control
+Blizzard World,47,34,16,17,1,Genji,Hybrid
+Busan,39,31,12,12,7,Baptiste,Control
+Circuit Royal,41,27,11,13,3,Ashe,Escort
+Colosseo,48,40,19,18,3,D.Va,Push
+Dorado,51,43,22,19,2,Bastion,Escort
+Eichenwalde,32,41,13,21,7,Doomfist,Hybrid
+Esperanca,51,39,20,16,3,Echo,Push
+Havana,41,32,13,16,3,Hanzo,Escort
+Hollywood,61,41,25,16,0,Bastion,Hybrid
+Ilios,35,37,13,19,5,Baptiste,Control
+Junkertown,41,39,16,17,6,Ana,Escort
+King's Row,46,24,11,11,2,Brigitte,Hybrid
+Lijiang Tower,33,39,13,21,5,Ashe,Control
+Midtown,42,45,19,21,5,D.Va,Hybrid
+Nepal,37,35,13,16,6,Kiriko,Control
+New Junk City,41,37,15,18,4,Echo,Flashpoint
+New Queen Street,32,34,11,17,6,Mei,Push
+Numbani,36,39,14,20,5,D.Va,Hybrid
+Oasis,49,35,17,13,5,Hanzo,Control
+Paraiso,31,36,11,20,5,Brigitte,Hybrid
+Rialto,51,35,18,15,2,Kiriko,Escort
+Route 66,42,45,19,19,7,Cassidy,Escort
+Samoa,55,44,24,13,7,Ana,Control
+Shambali Monastery,52,46,24,20,2,Ashe,Escort
+Suravasa,39,33,13,19,1,Ana,Flashpoint
+Watchpoint: Gibraltar,51,37,19,17,1,Echo,Escort

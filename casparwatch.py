@@ -7,7 +7,7 @@ import stat_util as su
 # set up dfs
 game_history_df = pd.read_csv('data/game_history.csv')
 hero_stats_df = pd.DataFrame(columns=['hero','role','win_percentage','games_played','games_won','games_lost','games_drawn','best_map'])
-map_stats_df = pd.DataFrame(columns=['map','win_percentage','games_played','games_won','games_lost','games_drawn','best_hero'])
+map_stats_df = pd.DataFrame(columns=['map','win_percentage','games_played','games_won','games_lost','games_drawn','best_hero', 'map_objective'])
 
 # const options for entry creation
 maps = mh.MAPS.keys()
@@ -42,6 +42,7 @@ for hero in unique_heroes:
 unique_maps = game_history_df.sort_values(by='map', ascending=True)['map'].unique()
 for map in unique_maps:
     map_games = game_history_df[game_history_df['map'] == map]
+    map_objective = mh.MAPS.get(map)
 
     # win, loss, draw, wp
     map_games_played = len(map_games)
@@ -52,7 +53,7 @@ for map in unique_maps:
 
     hero_win_dict = su.get_hero_by_map(map, game_history_df)
     map_best_hero = max(hero_win_dict, key=hero_win_dict.get)
-    map_stats_df = pd.concat([map_stats_df, pd.DataFrame([{'map':map, 'win_percentage':map_win_percentage, 'games_played':map_games_played, 'games_won':map_games_won, 'games_lost':map_games_lost, 'games_drawn':map_games_drawn, 'best_hero':map_best_hero}])], ignore_index=True)
+    map_stats_df = pd.concat([map_stats_df, pd.DataFrame([{'map':map, 'win_percentage':map_win_percentage, 'games_played':map_games_played, 'games_won':map_games_won, 'games_lost':map_games_lost, 'games_drawn':map_games_drawn, 'best_hero':map_best_hero, 'map_objective':map_objective}])], ignore_index=True)
 
 #display win rate and shame user LOL + add new entries
 title, button = st.columns([0.6,1])
