@@ -1,0 +1,41 @@
+hero,role,win_percentage,games_played,games_won,games_lost,games_drawn,best_map
+Ana,Support,26.9,26,7,16,3,Antarctic Peninsula
+Ashe,DPS,47.1,34,16,14,4,Circuit Royal
+Baptiste,Support,40.6,32,13,13,6,Antarctic Peninsula
+Bastion,DPS,34.4,32,11,18,3,Dorado
+Brigitte,Support,37.5,24,9,13,2,King's Row
+Cassidy,DPS,40.7,27,11,14,2,Hollywood
+D.Va,Tank,46.2,26,12,11,3,Antarctic Peninsula
+Doomfist,Tank,41.7,24,10,12,2,Antarctic Peninsula
+Echo,DPS,47.4,19,9,8,2,Circuit Royal
+Genji,DPS,36.7,30,11,15,4,Blizzard World
+Hanzo,DPS,51.6,31,16,11,4,Circuit Royal
+Illari,Support,48.4,31,15,15,1,Blizzard World
+Junker Queen,Tank,50.0,22,11,8,3,Busan
+Junkrat,DPS,31.2,16,5,9,2,Esperanca
+Kiriko,Support,50.0,22,11,10,1,Midtown
+Lifeweaver,Support,25.0,20,5,10,5,Rialto
+Lucio,Support,68.4,19,13,4,2,Blizzard World
+Mauga,Tank,54.2,24,13,9,2,Dorado
+Mei,DPS,47.6,21,10,11,0,Esperanca
+Mercy,Support,14.8,27,4,19,4,Junkertown
+Moira,Support,61.1,18,11,6,1,Dorado
+Orisa,Tank,38.1,21,8,10,3,Circuit Royal
+Pharah,DPS,44.4,18,8,4,6,Busan
+Ramattra,Tank,48.6,37,18,19,0,Antarctic Peninsula
+Reaper,DPS,39.4,33,13,19,1,Busan
+Reinhardt,Tank,50.0,24,12,10,2,Eichenwalde
+Roadhog,Tank,56.7,30,17,11,2,Blizzard World
+Sigma,Tank,55.2,29,16,12,1,Colosseo
+Sojourn,DPS,51.5,33,17,14,2,Blizzard World
+Soldier: 76,DPS,43.8,16,7,9,0,Blizzard World
+Sombra,DPS,41.2,17,7,9,1,Antarctic Peninsula
+Symmetra,DPS,42.9,28,12,12,4,Antarctic Peninsula
+Torbjorn,DPS,37.5,24,9,12,3,Blizzard World
+Tracer,DPS,27.8,18,5,8,5,Esperanca
+Venture,DPS,48.1,27,13,12,2,Blizzard World
+Widowmaker,DPS,30.4,23,7,12,4,Hollywood
+Winston,Tank,42.9,21,9,7,5,Busan
+Wrecking Ball,Tank,45.0,20,9,8,3,Busan
+Zarya,Tank,42.4,33,14,13,6,Blizzard World
+Zenyatta,Support,56.0,25,14,11,0,Blizzard World
